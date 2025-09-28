@@ -1,0 +1,21 @@
+# Dictionary mapping a musical key to its diatonic chords
+chord_lookup = {
+    "C": ["C", "Dmin", "Emin", "F", "G", "Amin", "Bdim"],
+    "G": ["G", "Amin", "Bmin", "C", "D", "Emin", "F#dim"],
+    "D": ["D", "Emin", "F#min", "G", "A", "Bmin", "C#dim"],
+    "A": ["A", "Bmin", "C#min", "D", "E", "F#min", "G#dim"],
+    "E": ["E", "F#min", "G#min", "A", "B", "C#min", "D#dim"],
+    "B": ["B", "C#min", "D#min", "E", "F#", "G#min", "A#dim"],
+    "F#": ["F#", "G#min", "A#min", "B", "C#", "D#min", "E#dim"],
+    "Gb": ["Gb", "Abmin", "Bbmin", "Cb", "Db", "Ebmin", "Fdim"],
+    "Db": ["Db", "Ebmin", "Fmin", "Gb", "Ab", "Bbmin", "Cdim"],
+    "Ab": ["Ab", "Bbmin", "Cmin", "Db", "Eb", "Fmin", "Gdim"],
+    "Eb": ["Eb", "Fmin", "Gmin", "Ab", "Bb", "Cmin", "Ddim"],
+    "Bb": ["Bb", "Cmin", "Dmin", "Eb", "F", "Gmin", "Adim"],
+    "F": ["F", "Gmin", "Amin", "Bb", "C", "Dmin", "Edim"],
+    # Enharmonic equivalents
+    "C#": ["C#", "D#min", "E#min", "F#", "G#", "A#min", "B#dim"],
+    "G#": ["G#", "A#min", "B#min", "C#", "D#", "E#min", "F##dim"],
+    "D#": ["D#", "E#min", "F##min", "G#", "A#", "B#min", "C##dim"],
+    "Cb": ["Cb", "Dbmin", "Ebmin", "Fb", "Gb", "Abmin", "Bbdim"],
+}

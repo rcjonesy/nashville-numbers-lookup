@@ -22,7 +22,6 @@ def main():
 
     numbers_input = input("Enter Nashville numbers (e.g., 1 4 5 1): ").strip()
 
-    # Convert string input to list of integers
     try:
         nashville_numbers = [int(num) for num in numbers_input.split()]
         get_chords(key, nashville_numbers)

@@ -1,4 +1,3 @@
-# Dictionary mapping a musical key to its diatonic chords
 chord_lookup = {
     "C": ["C", "Dmin", "Emin", "F", "G", "Amin", "Bdim"],
     "G": ["G", "Amin", "Bmin", "C", "D", "Emin", "F#dim"],
